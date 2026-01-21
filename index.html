@@ -13,8 +13,24 @@
   <!-- header section -->
    <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container">
+        <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="bi bi-list"></i>
+         </a>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="table.html">Offers</a></li>
+    <li><a class="dropdown-item" href="#">s</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+        <!-- <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="bi bi-list"></i>
+         </a> -->
+         &nsdp
         <a class="navbar-brand" href="#">
-          <span class="text-white fs-2"><i class="bi bi-list"><span></span></i><b><span class="">MUMBAI SHOPPING SHOP</span></b></span> 
+          <span class="text-white fs-2"><span class=""><img src="/png/online-shopping.png" width="50" height="50">MUMBAI SHOPPING SHOP</span></span> 
         </a>
         <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,19 +39,19 @@
         <ul class="navbar-nav">
             <li class="nav-item">
             <a class="nav-link text-white  text-center m-2" aria-current="page" href="#">
-            <i class="bi bi-house-door-fill"></i> <b>Shirt</b>
+            <i><img src="/png/shirt.png" height="40" width="40"></i> <b>Shirt</b>
             </a>
             </li>
             <li class="nav-item">
             <a class="nav-link text-white  text-center m-2" aria-current="page" href="#">
-            <i> <img src="/png/long-sleeve-shirt.png" height="40" width="40"></i>
+            <i> <img src="/png/clothes.png" height="40" width="40"></i>
                <B> Trouser </B>
             </a>
             </li>
             <li class="nav-item">
             <a class="nav-link text-white text-center m-2" aria-current="page" href="#">
-            <i class="bi bi-gear-fill"></i>
-                <b>Jean</b>
+            <i><img src="/png/jeans.png" height="40" width="40"></i>
+                <b>Jeans</b>
             </a>
             </li>
             <!-- <li class="nav-item">
@@ -52,13 +68,24 @@
             </li> -->
             
         </ul>
-       
-        </div>
+        <form class="d-flex" role="searchbox">
+        <input type="search" placeholder="search" aria-label="search"/>
+         <a class="text-white"><i class="bi bi-search"></i></a>
+    </form>
+
+        <!-- </div>
          <span class="nav-btn text-white">
             <span class="fs-4"> Login &nbsp; <i class="bi bi-person-circle"></i> </span>    
-        </span>
+        </span> -->
     </div>
+            <i><img src="/png/shopping-cart.png" width="50" height="50"></i>
+
 </nav>
+<!-- END  -->
+
+
+ <!-- <marquee  class="bg-white">Winter Wear Available troughtout the year</marquee> -->
+<h3><b><u>Our Trendy Product</u></b></h3>
     <!-- first row -->
 <div class="row">
         <div class="col-sm-3 p-3">
@@ -128,6 +155,7 @@
             </div>
           
         </div>
+        <!-- END  -->
 <!-- second row -->
            <div class="row">
  <div class="col-sm-3 p-3">
@@ -198,6 +226,52 @@
 
     </div>
 </div>
+<!-- END  -->
   
+ <!-- footer srt -->
+  <div class="container">
+ <footer class="py-3">
+    <div class="row">
+        <div class="col-6 col-md-3 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+             <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+             </li>
+             <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Features</a>
+             </li>
+             <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+             </li>
+             <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+             </li>
+             <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+             </li>
+            </ul>
+        </div>
+        <div class="col-5">
+        <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <input type="email" placeholder="email">
+            <button class="btn-light">Subscribe</button>
+        </form> 
+    </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 py-5 border-top">
+        <p>© 2025 Company, Inc. All rights reserved.</p>
+        <ul class="d-flex">
+            <li class="ms-3">
+                <a href="#" aria-label="instagram"><i class="bi bi-instagram"></i></a>
+            </li>
+        </ul>
+    </div>
+    
+ </footer>
+</div>
+
 </body>
 </html>
