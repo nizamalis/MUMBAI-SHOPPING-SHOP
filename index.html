@@ -22,7 +22,7 @@
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" href="/offers.html">Offers</a></li>
     <li><a class="dropdown-item" href="#">s</a></li>
-    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><a class="dropdown-item" href="#">Login</a></li>
   </ul>
 </div>
         <!-- <a class="btn btn-light" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
@@ -53,11 +53,11 @@
             <i><img src="/png/jeans.png" height="40" width="40"></i>
                 <b>Jeans</b>
             </a>
-            </li>
-            <!-- <li class="nav-item">
-            <a class="nav-link text-white  border-bottom border-2 text-center m-2" aria-current="page" href="#">
-            <i class="bi bi-envelope-at-fill"></i>
-                Contact us
+            <!-- </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark  border-bottom border-2 text-center m-2" aria-current="page" data-bs-target="login">
+            <i class=""><img src="/png/loggin.png" data-bs-target="login" width="40" height="40"></i>
+                
             </a>
             </li> -->
             <!-- <li class="nav-item">
@@ -66,12 +66,16 @@
                 Shop
             </a>
             </li> -->
+             <!-- <li><span class="nav-btn text-white" data-bs-toggle="modal" data-bs-target="#login">
+            <span class="fs-4"><i><img src="/png//loggin.png" width="40" height="40"></i> </span>    
+        </span></li> -->
             
         </ul>
-        <form class="d-flex" role="searchbox">
+        <!-- <form class="d-flex" role="searchbox">
         <input type="search" placeholder="search" aria-label="search"/>
          <a class="text-white"><i class="bi bi-search"></i></a>
-    </form>
+    </form> -->
+
 
         <!-- </div>
          <span class="nav-btn text-white">
@@ -79,11 +83,42 @@
         </span> -->
     </div>
            <a href="#"><i><img src="/png/shopping-cart.png" width="50" height="50"></i> </a>
-
+           <p>&nsdp</p>
+           
+           <li><span class="nav-btn text-white" data-bs-toggle="modal" data-bs-target="#login">
+            <span class="fs-4"><i><img src="/png//loggin.png" width="40" height="40"></i> </span>    
+        </span></li>
 </nav>
 <!-- END  -->
 
-
+<!-- login modal strt -->
+   <div class="modal" id="login">
+    <div class="modal-dialog border border-5 border-secondary rounded-4">
+        <div class="modal-content">
+              <div class="modal-header bg-dark text-white">
+        <h5 class="modal-title">Login !</h5>
+        <button type="button" class="btn-close"  data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+             <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" placeholder="We'll never share your email with anyone else." id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+                    <button type="submit" class="btn btn-dark">Login</button>
+                </div>
+        </div>
+    </div>
+   </div>
+ <!-- end modal -->
  <marquee  class="text-white bg-danger"><b>Winter Wear Available troughtout the yearWinter Wear Available troughtout the year </b></marquee>
 <h3><b><u>Our Trendy Product</u></b></h3>
     <!-- first row -->
@@ -102,8 +137,12 @@
                             </ul>
                             <p></p>
                         </p>
-                            <a href="addtocart.html" class="btn btn-dark col-12">Add to card</a>
-                        </div>
+                           
+                        <div class="row">
+                        <a href="addtocart.html" class="btn btn-dark col-12 rounded-4">Add to cart<img src="/png/cartt.png" width="" height=""></a>
+                        
+                        </div>    
+                    </div>
                     </div>
             </div>
 
@@ -119,7 +158,7 @@
                                 <li><h5><sup>₹</sup>899</h5></li>
                             </ul>
                         </p>
-                            <a href="addtocart.html" class="btn btn-dark col-12 ">Add to card</a>
+                            <a href="addtocart.html" class="btn btn-dark col-12 ">Add to cart <i class="bi bi-minecart-loaded"></i></a>
                         </div>
                     </div>
             </div>
