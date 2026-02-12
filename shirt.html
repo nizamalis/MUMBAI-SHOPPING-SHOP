@@ -8,13 +8,117 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
+
+
    <div class="container">
-    <div class="card" style="width: 18rem;">
-  <img src="/image/shirt.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <div class="row">
+       <!-- carousel -->
+      <div class="col-6">
+       <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/image/check2 shirt" class="d-block w-100" width="450" height="400" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/image/check4 srt" class="d-block w-100" width="450" height="400" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/image/check3 shrt" class="d-block w-100"  width="450" height="400" alt="...">
+    </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+<h1>Outlet <span class="badge text-bg-secondary">Sale</span></h1>
+
+<button class="bg-dark text-white" data-bs-toggle="offcanvas" data-bs-target="#more">explore more</button>
+       <div class="offcanvas offcanvas-start" tabindex="-1" id="more">
+        <div class="offcanvas-header bg-dark text-white">
+          <h5>More</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  
+        </div>
+        <!-- <ul class="list-group">
+          <li class="list-group-item">clear-check</li>
+          <li class="list-group-item">cotton</li>
+          <li class="list-group-item">cool-cottage</li>
+          <li class="list-group-item">linen</li>
+        </ul> -->
+
+        <div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action">
+    The current link item
+  </a>
+  <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+  <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+  <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+  <a href="#" class="list-group-item list-group-item-action" >A disabled link item</a>
 </div>
+
+       </div>
+   </div>
+      
+      <!-- accordion -->
+      <div class=" col-6">
+        <div class="accordion" id="shirt">
+          <div class="accordion-item">
+            <h4 class="accordion-header border border-none" >
+              <button class="accordion-button bg-success mt-2" type="accordion" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                key takeaways
+              </button>
+            </h4>
+            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#shirt">
+      <div class="accordion-body">
+         Here are some key takeaways for formal shirts:
+         <ul>
+          <li>one</li>
+          <li>teo</li>
+          <li>three</li>
+         </ul>
+      </div>
+    </div>
+          </div>
+       </div>
+       <div class="accordion" id="shirt">
+          <div class="accordion-item">
+            <h4 class="accordion-header border border-none">
+              <button class="accordion-button bg-secondary mt-2" type="accordion" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                product detail
+              </button>
+            </h4>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#shirt">
+      <div class="accordion-body">
+         
+Pairing: Formal shirts should be paired with tailored trousers and a matching blazer for a refined look. 
+1
+Avoid Loud Prints: Opt for subtle textures or micro patterns to maintain formal etiquette.
+      </div>
+    </div>
+          </div>
+       </div>
+       <div class="accordion" id="shirt">
+          <div class="accordion-item">
+            <h4 class="accordion-header border border-none">
+              <button class="accordion-button bg-info mt-2" type="accordion" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                key takeaways
+              </button>
+            </h4>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#shirt">
+      <div class="accordion-body">
+         Here are some key takeaways for formal shirts:
+      </div>
+    </div>
+          </div>
+       </div>
+      </div>
+    </div>
+      </div>
+    
 </body>
 </html>
